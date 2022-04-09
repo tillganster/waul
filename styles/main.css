@@ -1,0 +1,53 @@
+h1{
+    font-family:Mark;
+    color:white;
+    font-size: 5rem;
+}
+nav{
+    display:flex;
+    justify-content: center;
+}
+
+img{
+    width: 20vh;
+    align-self: center;
+}
+video{
+    height: 70vh;
+}
+
+.image-container{
+    margin: 0 auto;
+}
+
+.images{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: .3rem;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 0 1rem;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+html{
+    margin:0
+}
+body{
+    
+    background-color: rgb(196, 204, 238);
+}
+
+/* nav{
+    background-color: blue;
+} */
+
+@font-face {
+    font-family: mark;
+    src: url("../assets/fonts/MarkPro-Medium.otf");
+  }
